@@ -1,0 +1,1780 @@
+[
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Halogen Derivative"
+        ],
+        "count": 816
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Ester",
+            "Halogen Derivative"
+        ],
+        "count": 708
+    },
+    {
+        "groups": [
+            "Alkyl Bromide",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 420
+    },
+    {
+        "groups": [
+            "Alkyl Bromide",
+            "Carboxylic Acid Ester"
+        ],
+        "count": 420
+    },
+    {
+        "groups": [
+            "Alkyl Chloride",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 396
+    },
+    {
+        "groups": [
+            "Alkyl Chloride",
+            "Carboxylic Acid Ester"
+        ],
+        "count": 288
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 228
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Carboxylic Acid Ester"
+        ],
+        "count": 222
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Ether"
+        ],
+        "count": 132
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Heterocycle"
+        ],
+        "count": 126
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Aromatic"
+        ],
+        "count": 126
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Hydroxy"
+        ],
+        "count": 126
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Primary Alcohol"
+        ],
+        "count": 126
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Hydroxy"
+        ],
+        "count": 120
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Primary Alcohol"
+        ],
+        "count": 120
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Ether"
+        ],
+        "count": 120
+    },
+    {
+        "groups": [
+            "Ether",
+            "Hydroxy"
+        ],
+        "count": 120
+    },
+    {
+        "groups": [
+            "Ether",
+            "Primary Alcohol"
+        ],
+        "count": 120
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Alkane"
+        ],
+        "count": 115
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Hydroxy"
+        ],
+        "count": 115
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Primary Alcohol"
+        ],
+        "count": 109
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Primary Alcohol"
+        ],
+        "count": 108
+    },
+    {
+        "groups": [
+            "Alkyl Chloride",
+            "Carboxylic Acid Amide"
+        ],
+        "count": 108
+    },
+    {
+        "groups": [
+            "Alkyl Chloride",
+            "Carboxylic Acid Tertiary Amide"
+        ],
+        "count": 108
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Amide",
+            "Halogen Derivative"
+        ],
+        "count": 108
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Tertiary Amide",
+            "Halogen Derivative"
+        ],
+        "count": 108
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Dialkylether"
+        ],
+        "count": 96
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Aromatic"
+        ],
+        "count": 94
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 93
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Hydroxy"
+        ],
+        "count": 93
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Carboxylic Acid Ester"
+        ],
+        "count": 90
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Ester",
+            "Hydroxy"
+        ],
+        "count": 90
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Primary Alcohol"
+        ],
+        "count": 87
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Ester",
+            "Primary Alcohol"
+        ],
+        "count": 84
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Dialkylether"
+        ],
+        "count": 84
+    },
+    {
+        "groups": [
+            "Dialkylether",
+            "Hydroxy"
+        ],
+        "count": 84
+    },
+    {
+        "groups": [
+            "Dialkylether",
+            "Primary Alcohol"
+        ],
+        "count": 84
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Heterocycle"
+        ],
+        "count": 78
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Ketone"
+        ],
+        "count": 78
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Hydroxy"
+        ],
+        "count": 66
+    },
+    {
+        "groups": [
+            "Halogen Derivative",
+            "Heterocycle"
+        ],
+        "count": 66
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Aqueous"
+        ],
+        "count": 61
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Hydroxy"
+        ],
+        "count": 61
+    },
+    {
+        "groups": [
+            "Amine",
+            "Aqueous"
+        ],
+        "count": 60
+    },
+    {
+        "groups": [
+            "Amine",
+            "Carbonyl"
+        ],
+        "count": 60
+    },
+    {
+        "groups": [
+            "Amine",
+            "Ketone"
+        ],
+        "count": 60
+    },
+    {
+        "groups": [
+            "Dialkylether",
+            "Halogen Derivative"
+        ],
+        "count": 60
+    },
+    {
+        "groups": [
+            "Ether",
+            "Halogen Derivative"
+        ],
+        "count": 60
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Primary Alcohol"
+        ],
+        "count": 55
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Alcohol"
+        ],
+        "count": 54
+    },
+    {
+        "groups": [
+            "Primary Alcohol",
+            "Primary Alcohol"
+        ],
+        "count": 54
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Dialkylether"
+        ],
+        "count": 54
+    },
+    {
+        "groups": [
+            "Dialkylether",
+            "Ketone"
+        ],
+        "count": 54
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Ether"
+        ],
+        "count": 54
+    },
+    {
+        "groups": [
+            "Ether",
+            "Ketone"
+        ],
+        "count": 54
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Carboxylic Acid Ester"
+        ],
+        "count": 51
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Aromatic"
+        ],
+        "count": 48
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Sulfoxide"
+        ],
+        "count": 48
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Sulfoxide"
+        ],
+        "count": 48
+    },
+    {
+        "groups": [
+            "Primary Alcohol",
+            "Sulfoxide"
+        ],
+        "count": 48
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Heterocycle"
+        ],
+        "count": 42
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Heterocycle"
+        ],
+        "count": 42
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Halogen Derivative"
+        ],
+        "count": 42
+    },
+    {
+        "groups": [
+            "Halogen Derivative",
+            "Hydroxy"
+        ],
+        "count": 42
+    },
+    {
+        "groups": [
+            "Halogen Derivative",
+            "Primary Alcohol"
+        ],
+        "count": 42
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Heterocycle"
+        ],
+        "count": 42
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Hydroxy"
+        ],
+        "count": 42
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Primary Alcohol"
+        ],
+        "count": 42
+    },
+    {
+        "groups": [
+            "Amine",
+            "Aromatic"
+        ],
+        "count": 42
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Carbonic Acid Derivative"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Carbonic Acid Diester"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Carbonic Acid Derivative",
+            "Hydroxy"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Carbonic Acid Diester",
+            "Hydroxy"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Carbonic Acid Derivative",
+            "Primary Alcohol"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Carbonic Acid Diester",
+            "Primary Alcohol"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Dialkylether"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Ether"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Secondary Amine"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Secondary Amine"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Alkyl Chloride",
+            "Heterocycle"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Alkyl Chloride",
+            "Lactam"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Halogen Derivative",
+            "Lactam"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Amine",
+            "Heterocycle"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Alkylarylether"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Alkylarylether",
+            "Aromatic"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Alkylarylether",
+            "Hydroxy"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Alkylarylether",
+            "Primary Alcohol"
+        ],
+        "count": 36
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Secondary Aliphatic Amine"
+        ],
+        "count": 33
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Secondary Amine"
+        ],
+        "count": 33
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Tertiary Aliphatic Amine"
+        ],
+        "count": 33
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Tertiary Amine"
+        ],
+        "count": 33
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 33
+    },
+    {
+        "groups": [
+            "Alkyl Fluoride",
+            "Dialkylether"
+        ],
+        "count": 30
+    },
+    {
+        "groups": [
+            "Alkyl Fluoride",
+            "Ether"
+        ],
+        "count": 30
+    },
+    {
+        "groups": [
+            "Dialkylether",
+            "Orthocarboxylic Acid Derivative"
+        ],
+        "count": 30
+    },
+    {
+        "groups": [
+            "Ether",
+            "Orthocarboxylic Acid Derivative"
+        ],
+        "count": 30
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Primary Amine"
+        ],
+        "count": 30
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Primary Amine"
+        ],
+        "count": 30
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Sulfoxide"
+        ],
+        "count": 30
+    },
+    {
+        "groups": [
+            "Dialkylether",
+            "Nitrile"
+        ],
+        "count": 30
+    },
+    {
+        "groups": [
+            "Ether",
+            "Nitrile"
+        ],
+        "count": 30
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Carbonyl"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Ketone"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Carbonyl"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Hydroxy"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Primary Alcohol"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Secondary Aliphatic Amine"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Secondary Aliphatic Amine"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Alkyl Fluoride"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Orthocarboxylic Acid Derivative"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Alkyl Fluoride",
+            "Hydroxy"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Orthocarboxylic Acid Derivative"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Alkyl Fluoride",
+            "Primary Alcohol"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Orthocarboxylic Acid Derivative",
+            "Primary Alcohol"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Ester",
+            "Carboxylic Acid Ester"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Primary Aromatic Amine"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Primary Aromatic Amine"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Dialkylether",
+            "Heterocycle"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Ether",
+            "Heterocycle"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Amine",
+            "Carboxylic Acid Amide"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Amine",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Amine",
+            "Carboxylic Acid Tertiary Amide"
+        ],
+        "count": 24
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Dialkylether"
+        ],
+        "count": 21
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Ether"
+        ],
+        "count": 21
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Carboxylic Acid Amide"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Carboxylic Acid Tertiary Amide"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Lactam"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Heterocycle"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Ketone"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Ketone"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Primary Alcohol"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Alkene"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Alkene",
+            "Hydroxy"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Alkene",
+            "Primary Alcohol"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Acetal",
+            "Carbonyl"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Acetal",
+            "Ketone"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Aryl Chloride",
+            "Heterocycle"
+        ],
+        "count": 18
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Primary Aliphatic Amine"
+        ],
+        "count": 15
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Primary Amine"
+        ],
+        "count": 15
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Primary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Primary Aromatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Primary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Primary Aromatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Nitrile"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Secondary Mixed Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Secondary Mixed Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Tertiary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Tertiary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Tertiary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Tertiary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Tertiary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Tertiary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Amine",
+            "Hydroxy"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Tertiary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Tertiary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Amine",
+            "Primary Alcohol"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Primary Alcohol",
+            "Tertiary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Primary Alcohol",
+            "Tertiary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Secondary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Secondary Mixed Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Alkane"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Carboxylic Acid Ester"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Aryl Chloride",
+            "Dialkylether"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Aryl Chloride",
+            "Ether"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Heterocycle"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Phenol"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Phenol"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Phenol",
+            "Primary Alcohol"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Amide",
+            "Primary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Primary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Tertiary Amide",
+            "Primary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Amide",
+            "Primary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Primary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Tertiary Amide",
+            "Primary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Amide",
+            "Secondary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Secondary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Tertiary Amide",
+            "Secondary Aliphatic Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Amide",
+            "Secondary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Secondary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Tertiary Amide",
+            "Secondary Amine"
+        ],
+        "count": 12
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Aromatic"
+        ],
+        "count": 9
+    },
+    {
+        "groups": [
+            "Carboxylic Acid",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 9
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 7
+    },
+    {
+        "groups": [
+            "1,2 Diol",
+            "Aqueous"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Phosphoric Acid Derivative"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Phosphoric Acid Ester"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Phosphoric Acid Derivative"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Phosphoric Acid Ester"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Phosphoric Acid Derivative",
+            "Primary Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Phosphoric Acid Ester",
+            "Primary Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Halogen Derivative"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Secondary Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Ester",
+            "Secondary Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Secondary Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "1,2 Aminoalcohol",
+            "Aromatic"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "1,2 Aminoalcohol",
+            "Heterocycle"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Primary Aliphatic Amine"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Primary Aliphatic Amine"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Dialkylether",
+            "Sulfoxide"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Ether",
+            "Sulfoxide"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Sulfoxide"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Tertiary Aliphatic Amine"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Tertiary Aliphatic Amine"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Tertiary Amine"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Tertiary Amine"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Secondary Amine"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Secondary Mixed Amine"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "1,2 Aminoalcohol",
+            "Aqueous"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Nitrile"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Hydroxy",
+            "Nitrile"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Nitrile",
+            "Primary Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Aryl Chloride"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Halogen Derivative"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Carboxylic Acid Amide"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Carboxylic Acid Tertiary Amide"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Lactam"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "1,2 Diol",
+            "Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "1,2 Diol",
+            "Aromatic"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "1,2 Diol",
+            "Hydroxy"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "1,2 Diol",
+            "Primary Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Secondary Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid",
+            "Carboxylic Acid Anhydride"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Anhydride",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Acetal",
+            "Aromatic"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Acetal",
+            "Aryl Chloride"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Acetal",
+            "Halogen Derivative"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Alkyl Fluoride"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alkane",
+            "Halogen Derivative"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Amide",
+            "Heterocycle"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Tertiary Amide",
+            "Heterocycle"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Heterocycle",
+            "Lactam"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Sulfoxide"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Sulfoxide"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Carbonic Acid Derivative"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aromatic",
+            "Carbonic Acid Diester"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Aldehyde"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aldehyde",
+            "Hydroxy"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Aldehyde",
+            "Primary Alcohol"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Carboxylic Acid Amide"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Carboxylic Acid Derivative"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Carboxylic Acid Tertiary Amide"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carbonyl",
+            "Lactam"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Amide",
+            "Ketone"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Derivative",
+            "Ketone"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid Tertiary Amide",
+            "Ketone"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Ketone",
+            "Lactam"
+        ],
+        "count": 6
+    },
+    {
+        "groups": [
+            "Carboxylic Acid",
+            "Carboxylic Acid Ester"
+        ],
+        "count": 3
+    },
+    {
+        "groups": [
+            "Alcohol",
+            "Carboxylic Acid"
+        ],
+        "count": 3
+    },
+    {
+        "groups": [
+            "Carboxylic Acid",
+            "Hydroxy"
+        ],
+        "count": 3
+    },
+    {
+        "groups": [
+            "Carboxylic Acid",
+            "Primary Alcohol"
+        ],
+        "count": 3
+    },
+    {
+        "groups": [
+            "Aqueous",
+            "Carboxylic Acid Ester"
+        ],
+        "count": 1
+    }
+]

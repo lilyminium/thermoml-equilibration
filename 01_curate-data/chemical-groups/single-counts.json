@@ -1,0 +1,186 @@
+[
+    {
+        "groups": "Hydroxy",
+        "count": 30
+    },
+    {
+        "groups": "Alcohol",
+        "count": 28
+    },
+    {
+        "groups": "Carboxylic Acid Derivative",
+        "count": 27
+    },
+    {
+        "groups": "Primary Alcohol",
+        "count": 27
+    },
+    {
+        "groups": "Aromatic",
+        "count": 25
+    },
+    {
+        "groups": "Amine",
+        "count": 22
+    },
+    {
+        "groups": "Carboxylic Acid Ester",
+        "count": 21
+    },
+    {
+        "groups": "Ether",
+        "count": 19
+    },
+    {
+        "groups": "Heterocycle",
+        "count": 19
+    },
+    {
+        "groups": "Halogen Derivative",
+        "count": 19
+    },
+    {
+        "groups": "Dialkylether",
+        "count": 17
+    },
+    {
+        "groups": "Carbonyl",
+        "count": 15
+    },
+    {
+        "groups": "Ketone",
+        "count": 14
+    },
+    {
+        "groups": "Secondary Amine",
+        "count": 9
+    },
+    {
+        "groups": "Tertiary Aliphatic Amine",
+        "count": 9
+    },
+    {
+        "groups": "Tertiary Amine",
+        "count": 9
+    },
+    {
+        "groups": "Alkane",
+        "count": 9
+    },
+    {
+        "groups": "Primary Amine",
+        "count": 8
+    },
+    {
+        "groups": "Secondary Aliphatic Amine",
+        "count": 8
+    },
+    {
+        "groups": "Alkyl Chloride",
+        "count": 8
+    },
+    {
+        "groups": "Primary Aliphatic Amine",
+        "count": 6
+    },
+    {
+        "groups": "Alkyl Bromide",
+        "count": 5
+    },
+    {
+        "groups": "Alkene",
+        "count": 3
+    },
+    {
+        "groups": "Nitrile",
+        "count": 3
+    },
+    {
+        "groups": "Carboxylic Acid Amide",
+        "count": 3
+    },
+    {
+        "groups": "Carboxylic Acid Tertiary Amide",
+        "count": 3
+    },
+    {
+        "groups": "Alkylarylether",
+        "count": 2
+    },
+    {
+        "groups": "Phenol",
+        "count": 2
+    },
+    {
+        "groups": "Aryl Chloride",
+        "count": 2
+    },
+    {
+        "groups": "1,2 Aminoalcohol",
+        "count": 2
+    },
+    {
+        "groups": "Primary Aromatic Amine",
+        "count": 2
+    },
+    {
+        "groups": "Carbonic Acid Derivative",
+        "count": 2
+    },
+    {
+        "groups": "Carbonic Acid Diester",
+        "count": 2
+    },
+    {
+        "groups": "Alkyl Fluoride",
+        "count": 2
+    },
+    {
+        "groups": "Sulfoxide",
+        "count": 1
+    },
+    {
+        "groups": "Acetal",
+        "count": 1
+    },
+    {
+        "groups": "Secondary Alcohol",
+        "count": 1
+    },
+    {
+        "groups": "1,2 Diol",
+        "count": 1
+    },
+    {
+        "groups": "Carboxylic Acid",
+        "count": 1
+    },
+    {
+        "groups": "Aldehyde",
+        "count": 1
+    },
+    {
+        "groups": "Phosphoric Acid Derivative",
+        "count": 1
+    },
+    {
+        "groups": "Phosphoric Acid Ester",
+        "count": 1
+    },
+    {
+        "groups": "Secondary Mixed Amine",
+        "count": 1
+    },
+    {
+        "groups": "Lactam",
+        "count": 1
+    },
+    {
+        "groups": "Orthocarboxylic Acid Derivative",
+        "count": 1
+    },
+    {
+        "groups": "Carboxylic Acid Anhydride",
+        "count": 1
+    }
+]
