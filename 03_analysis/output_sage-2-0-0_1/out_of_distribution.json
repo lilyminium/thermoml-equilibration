@@ -1,0 +1,236 @@
+[
+  {
+    "state": [
+      "BrCCBr",
+      298.15,
+      101.0,
+      "Potential Energy (kJ/mole)"
+    ],
+    "stats": [
+      {
+        "mean": -4632.231497636112,
+        "std": 306.2633094116383,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_060f52383e4a4dbe830c8f7054d5a038",
+        "Id": "060f52383e4a4dbe830c8f7054d5a038",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_060f52383e4a4dbe830c8f7054d5a038)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4746.2033533569,
+        "std": 302.7176331922233,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_16a0a3eba33a418bbd8bd8f23cb4f6e8",
+        "Id": "16a0a3eba33a418bbd8bd8f23cb4f6e8",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_16a0a3eba33a418bbd8bd8f23cb4f6e8)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4708.046789607597,
+        "std": 308.1451365237817,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_2c60cba09b4c4005afcb0a439ff8476b",
+        "Id": "2c60cba09b4c4005afcb0a439ff8476b",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_2c60cba09b4c4005afcb0a439ff8476b)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -2731.2097204085203,
+        "std": 327.7895270052242,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_313f1ee959a641f8975e776af51a37e0",
+        "Id": "313f1ee959a641f8975e776af51a37e0",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_313f1ee959a641f8975e776af51a37e0)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4676.481339433666,
+        "std": 306.4069042251365,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_4e947b5988e641499515ab6065091866",
+        "Id": "4e947b5988e641499515ab6065091866",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_4e947b5988e641499515ab6065091866)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4714.656222881768,
+        "std": 287.8839398645804,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_87193708da84417b913662f8d24ecd02",
+        "Id": "87193708da84417b913662f8d24ecd02",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_87193708da84417b913662f8d24ecd02)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4675.375247787672,
+        "std": 312.7007675033172,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_87942455cdc74acf98c290a99c11d941",
+        "Id": "87942455cdc74acf98c290a99c11d941",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_87942455cdc74acf98c290a99c11d941)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4616.841627352593,
+        "std": 316.03344714201984,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_8bfc7c1836f140adb0d36e80610b538a",
+        "Id": "8bfc7c1836f140adb0d36e80610b538a",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_8bfc7c1836f140adb0d36e80610b538a)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4724.762890570398,
+        "std": 303.8891464571458,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_99bcec70f5c44404b60e9e43a98be9eb",
+        "Id": "99bcec70f5c44404b60e9e43a98be9eb",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_99bcec70f5c44404b60e9e43a98be9eb)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4724.818825094971,
+        "std": 302.16757606965444,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_c78af519c0494b34ac385aa73f83c9a3",
+        "Id": "c78af519c0494b34ac385aa73f83c9a3",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_c78af519c0494b34ac385aa73f83c9a3)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4741.456474247363,
+        "std": 311.53561659976884,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_c8f8d9b9c668443caa1f8c2d283dbc8d",
+        "Id": "c8f8d9b9c668443caa1f8c2d283dbc8d",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_c8f8d9b9c668443caa1f8c2d283dbc8d)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4686.970096481134,
+        "std": 309.96491028746635,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_cc6f80f028ae4931bbaaf67bcdacf5b1",
+        "Id": "cc6f80f028ae4931bbaaf67bcdacf5b1",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_cc6f80f028ae4931bbaaf67bcdacf5b1)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4736.107880829501,
+        "std": 314.167168977843,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_d18fdc4311a94505a43f5c0577c104bb",
+        "Id": "d18fdc4311a94505a43f5c0577c104bb",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_d18fdc4311a94505a43f5c0577c104bb)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4698.412245558414,
+        "std": 321.6452782558883,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_dd7eacaff223404aa59abe58155663d5",
+        "Id": "dd7eacaff223404aa59abe58155663d5",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_dd7eacaff223404aa59abe58155663d5)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      },
+      {
+        "mean": -4720.968936685379,
+        "std": 310.886873020259,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_ea011160bdec43368294dfd9a65ebfe1",
+        "Id": "ea011160bdec43368294dfd9a65ebfe1",
+        "Substance": "BrCCBr",
+        "Box": "BrCCBr (eeb92f8e748e4f17a7b1f242a4620173_ea011160bdec43368294dfd9a65ebfe1)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      }
+    ]
+  },
+  {
+    "state": [
+      "C1CCOCC1{solv}{x=0.526000}|CCCCCO{solv}{x=0.474000}",
+      298.15,
+      101.0,
+      "Density (g/mL)"
+    ],
+    "stats": [
+      {
+        "mean": 0.8415287485409347,
+        "std": 0.0038394876859434066,
+        "property": "Density (g/mL)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_ac482d7029ee45cea81f979d4e2d4fa9",
+        "Id": "ac482d7029ee45cea81f979d4e2d4fa9",
+        "Substance": "C1CCOCC1{solv}{x=0.526000}|CCCCCO{solv}{x=0.474000}",
+        "Box": "C1CCOCC1{solv}{x=0.526000}|CCCCCO{solv}{x=0.474000} (eeb92f8e748e4f17a7b1f242a4620173_ac482d7029ee45cea81f979d4e2d4fa9)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      }
+    ]
+  },
+  {
+    "state": [
+      "C1CCOCC1{solv}{x=0.526000}|CCCCCO{solv}{x=0.474000}",
+      298.15,
+      101.0,
+      "Potential Energy (kJ/mole)"
+    ],
+    "stats": [
+      {
+        "mean": 16750.313881174945,
+        "std": 412.82883630222665,
+        "property": "Potential Energy (kJ/mole)",
+        "group_id": "sage-2-0-0_1",
+        "full_id": "eeb92f8e748e4f17a7b1f242a4620173_ac482d7029ee45cea81f979d4e2d4fa9",
+        "Id": "ac482d7029ee45cea81f979d4e2d4fa9",
+        "Substance": "C1CCOCC1{solv}{x=0.526000}|CCCCCO{solv}{x=0.474000}",
+        "Box": "C1CCOCC1{solv}{x=0.526000}|CCCCCO{solv}{x=0.474000} (eeb92f8e748e4f17a7b1f242a4620173_ac482d7029ee45cea81f979d4e2d4fa9)",
+        "Temperature (K)": 298.15,
+        "Pressure (Pa)": 101.0
+      }
+    ]
+  }
+]
