@@ -1,0 +1,582 @@
+{
+    "CCC(C)=O": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "CCCCO": [
+        "Alcohol",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCCC(=O)OCC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "C1CCNCC1": [
+        "Amine",
+        "Heterocycle",
+        "Secondary Aliphatic Amine",
+        "Secondary Amine"
+    ],
+    "CCCCOCCCC": [
+        "Dialkylether",
+        "Ether"
+    ],
+    "CC1CCCCC1": [
+        "Alkane"
+    ],
+    "Cc1cccc(C)n1": [
+        "Aromatic",
+        "Heterocycle"
+    ],
+    "ClC(Cl)Cl": [
+        "Halogen Derivative"
+    ],
+    "COCCO": [
+        "Alcohol",
+        "Dialkylether",
+        "Ether",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCCCCCCl": [
+        "Alkyl Chloride",
+        "Halogen Derivative"
+    ],
+    "Cc1ccccc1O": [
+        "Aromatic",
+        "Hydroxy",
+        "Phenol"
+    ],
+    "CC(=O)C(C)C": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "CNc1ccccc1": [
+        "Amine",
+        "Aromatic",
+        "Secondary Amine",
+        "Secondary Mixed Amine"
+    ],
+    "CCCC(C)=O": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "OCCCc1ccccc1": [
+        "Alcohol",
+        "Aromatic",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCOC(=O)CC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "C1CCCCC1": [
+        "Alkane"
+    ],
+    "CC(C)=O": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "CCCCCCCCC": [
+        "Alkane"
+    ],
+    "CCCCCC(C)=O": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "CCC#N": [
+        "Nitrile"
+    ],
+    "CCCCCCCO": [
+        "Alcohol",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "C1COCCN1": [
+        "Amine",
+        "Dialkylether",
+        "Ether",
+        "Heterocycle",
+        "Secondary Aliphatic Amine",
+        "Secondary Amine"
+    ],
+    "CCCCN": [
+        "Amine",
+        "Primary Aliphatic Amine",
+        "Primary Amine"
+    ],
+    "C=C(C)[C@H]1CC=C(C)CC1": [
+        "Alkene"
+    ],
+    "CCCCOC(C)=O": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "Cc1cccc(O)c1": [
+        "Aromatic",
+        "Hydroxy",
+        "Phenol"
+    ],
+    "CC(C)CC(C)(C)C": [
+        "Alkane"
+    ],
+    "CCCCOC=O": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "OCCO": [
+        "1,2 Diol",
+        "Alcohol",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CN1CCCCC1": [
+        "Amine",
+        "Heterocycle",
+        "Tertiary Aliphatic Amine",
+        "Tertiary Amine"
+    ],
+    "CC/C=C\\CCO": [
+        "Alcohol",
+        "Alkene",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "BrCCBr": [
+        "Alkyl Bromide",
+        "Halogen Derivative"
+    ],
+    "CCCC(=O)OC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "c1ccncc1": [
+        "Aromatic",
+        "Heterocycle"
+    ],
+    "BrCCCCCCBr": [
+        "Alkyl Bromide",
+        "Halogen Derivative"
+    ],
+    "CCCCCCCC": [
+        "Alkane"
+    ],
+    "ClCCCCCCl": [
+        "Alkyl Chloride",
+        "Halogen Derivative"
+    ],
+    "C1COCCO1": [
+        "Dialkylether",
+        "Ether",
+        "Heterocycle"
+    ],
+    "CCOC(C)(C)CC": [
+        "Dialkylether",
+        "Ether"
+    ],
+    "CCN(CC)CCO": [
+        "Alcohol",
+        "Amine",
+        "Hydroxy",
+        "Primary Alcohol",
+        "Tertiary Aliphatic Amine",
+        "Tertiary Amine"
+    ],
+    "c1cc[nH]c1": [
+        "Aromatic",
+        "Heterocycle"
+    ],
+    "CCCCCCCCCl": [
+        "Alkyl Chloride",
+        "Halogen Derivative"
+    ],
+    "Clc1ccccc1": [
+        "Aromatic",
+        "Aryl Chloride",
+        "Halogen Derivative"
+    ],
+    "OCc1ccccc1": [
+        "Alcohol",
+        "Aromatic",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCCCOC(=O)CC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "CCCCCl": [
+        "Alkyl Chloride",
+        "Halogen Derivative"
+    ],
+    "CCCOC(=O)CC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "C=CCCCC": [
+        "Alkene"
+    ],
+    "C1CCOCC1": [
+        "Dialkylether",
+        "Ether",
+        "Heterocycle"
+    ],
+    "OCCOCCO": [
+        "Alcohol",
+        "Dialkylether",
+        "Ether",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "c1ccccc1": [
+        "Aromatic"
+    ],
+    "O=C1CCCC1": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "CCCC#N": [
+        "Nitrile"
+    ],
+    "CCCO": [
+        "Alcohol",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCCNCCC": [
+        "Amine",
+        "Secondary Aliphatic Amine",
+        "Secondary Amine"
+    ],
+    "CCCOC(=O)CCC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "CCCCCO": [
+        "Alcohol",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCOC(=O)C(C)C": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "ClCCCCl": [
+        "Alkyl Chloride",
+        "Halogen Derivative"
+    ],
+    "CC(C)O": [
+        "Alcohol",
+        "Hydroxy",
+        "Secondary Alcohol"
+    ],
+    "BrCCCBr": [
+        "Alkyl Bromide",
+        "Halogen Derivative"
+    ],
+    "Cc1ccccc1Cl": [
+        "Aromatic",
+        "Aryl Chloride",
+        "Halogen Derivative"
+    ],
+    "CCCCCCN": [
+        "Amine",
+        "Primary Aliphatic Amine",
+        "Primary Amine"
+    ],
+    "BrCCCCCBr": [
+        "Alkyl Bromide",
+        "Halogen Derivative"
+    ],
+    "C1COCO1": [
+        "Acetal",
+        "Heterocycle"
+    ],
+    "CCOCCO": [
+        "Alcohol",
+        "Dialkylether",
+        "Ether",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCCOC=O": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "OCCc1ccccc1": [
+        "Alcohol",
+        "Aromatic",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCOc1ccccc1": [
+        "Alkylarylether",
+        "Aromatic",
+        "Ether"
+    ],
+    "NCCO": [
+        "1,2 Aminoalcohol",
+        "Alcohol",
+        "Amine",
+        "Hydroxy",
+        "Primary Alcohol",
+        "Primary Aliphatic Amine",
+        "Primary Amine"
+    ],
+    "CC1(C)C(=O)[C@]2(C)CC[C@H]1C2": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "COC(C)=O": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "Nc1ccccc1": [
+        "Amine",
+        "Aromatic",
+        "Primary Amine",
+        "Primary Aromatic Amine"
+    ],
+    "CCCCC(=O)OC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "O=Cc1ccccc1": [
+        "Aldehyde",
+        "Aromatic",
+        "Carbonyl"
+    ],
+    "CCCOC(C)=O": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "O": [
+        "Aqueous"
+    ],
+    "Cc1ccccc1": [
+        "Aromatic"
+    ],
+    "CN1CCNCC1": [
+        "Amine",
+        "Heterocycle",
+        "Secondary Aliphatic Amine",
+        "Secondary Amine",
+        "Tertiary Aliphatic Amine",
+        "Tertiary Amine"
+    ],
+    "CC#N": [
+        "Nitrile"
+    ],
+    "OC1=NCCC1": [
+        "Carboxylic Acid Derivative",
+        "Heterocycle"
+    ],
+    "CC(C)OC(C)C": [
+        "Dialkylether",
+        "Ether"
+    ],
+    "BrCCCCBr": [
+        "Alkyl Bromide",
+        "Halogen Derivative"
+    ],
+    "CCOC(=O)CC(=O)OCC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "CCOC(C)(C)C": [
+        "Dialkylether",
+        "Ether"
+    ],
+    "CCN(CC)CC": [
+        "Amine",
+        "Tertiary Aliphatic Amine",
+        "Tertiary Amine"
+    ],
+    "CC(=O)CC(C)C": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "CCCCCCC": [
+        "Alkane"
+    ],
+    "CCCCCC": [
+        "Alkane"
+    ],
+    "Cn1ccnc1": [
+        "Aromatic",
+        "Heterocycle"
+    ],
+    "CCC(=O)OC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "COc1ccccc1": [
+        "Alkylarylether",
+        "Aromatic",
+        "Ether"
+    ],
+    "CCCCNCCCC": [
+        "Amine",
+        "Secondary Aliphatic Amine",
+        "Secondary Amine"
+    ],
+    "CCOC(C)=O": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "CCOC(=O)CC(C)=O": [
+        "Carbonyl",
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester",
+        "Ketone"
+    ],
+    "COCCOCCOC": [
+        "Dialkylether",
+        "Ether"
+    ],
+    "CC(=O)C(C)=O": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "COCCOCCO": [
+        "Alcohol",
+        "Dialkylether",
+        "Ether",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "C1CCCC1": [
+        "Alkane"
+    ],
+    "CC(=O)O": [
+        "Carboxylic Acid",
+        "Carboxylic Acid Derivative"
+    ],
+    "Cc1ccccn1": [
+        "Aromatic",
+        "Heterocycle"
+    ],
+    "CO": [
+        "Alcohol",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CN1CCCC1=O": [
+        "Carboxylic Acid Amide",
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Tertiary Amide",
+        "Heterocycle",
+        "Lactam"
+    ],
+    "Cc1cccnc1": [
+        "Aromatic",
+        "Heterocycle"
+    ],
+    "Cc1ccccc1N": [
+        "Amine",
+        "Aromatic",
+        "Primary Amine",
+        "Primary Aromatic Amine"
+    ],
+    "CN1CCOCC1": [
+        "Amine",
+        "Dialkylether",
+        "Ether",
+        "Heterocycle",
+        "Tertiary Aliphatic Amine",
+        "Tertiary Amine"
+    ],
+    "CCCCOC(=O)CCC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "CC(C)CO": [
+        "Alcohol",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCO": [
+        "Alcohol",
+        "Hydroxy",
+        "Primary Alcohol"
+    ],
+    "CCC(=O)CC": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "Cc1ccccc1C": [
+        "Aromatic"
+    ],
+    "C1CCOC1": [
+        "Dialkylether",
+        "Ether",
+        "Heterocycle"
+    ],
+    "Cc1ccncc1": [
+        "Aromatic",
+        "Heterocycle"
+    ],
+    "CN(C)CCO": [
+        "Alcohol",
+        "Amine",
+        "Hydroxy",
+        "Primary Alcohol",
+        "Tertiary Aliphatic Amine",
+        "Tertiary Amine"
+    ],
+    "COC(C)(C)C": [
+        "Dialkylether",
+        "Ether"
+    ],
+    "CCOC=O": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "ClCCCCCCCl": [
+        "Alkyl Chloride",
+        "Halogen Derivative"
+    ],
+    "CN(C)CCCO": [
+        "Alcohol",
+        "Amine",
+        "Hydroxy",
+        "Primary Alcohol",
+        "Tertiary Aliphatic Amine",
+        "Tertiary Amine"
+    ],
+    "O=C1CCCCCC1": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "CC(=O)N(C)C": [
+        "Carboxylic Acid Amide",
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Tertiary Amide"
+    ],
+    "ClCCCCCl": [
+        "Alkyl Chloride",
+        "Halogen Derivative"
+    ],
+    "CN(C)C=O": [
+        "Carboxylic Acid Amide",
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Tertiary Amide"
+    ],
+    "ClCCCl": [
+        "Alkyl Chloride",
+        "Halogen Derivative"
+    ],
+    "O=C1CCCCC1": [
+        "Carbonyl",
+        "Ketone"
+    ],
+    "CCCCC(=O)OCC": [
+        "Carboxylic Acid Derivative",
+        "Carboxylic Acid Ester"
+    ],
+    "CCCCC": [
+        "Alkane"
+    ]
+}
