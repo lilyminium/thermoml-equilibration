@@ -1,0 +1,49 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: rclone-lw
+spec:
+  template:
+    spec:
+      restartPolicy: OnFailure
+      containers:
+        - name: rclone-lw
+          image: rclone/rclone
+          resources:
+            limits:
+              memory: "1Gi"
+              cpu: "200m"
+              ephemeral-storage: "20Gi"
+            requests:
+              memory: "1Gi"
+              cpu: "200m"
+              ephemeral-storage: "20Gi"
+          env:
+            - name: RCLONE_CONFIG
+              value: /secrets/rclone.conf
+          command:
+            - "/bin/sh"
+            - "-c"
+            - |
+              set -euf
+              rclone --version
+              echo "about to clone"
+              rclone copy --progress /evaluator-storage nrp-internal:evaluator-iris-bucket2/
+              echo "finished cloning"
+
+          volumeMounts:
+            - name: evaluator-storage-lw-iris
+              mountPath: /evaluator-storage
+            - name: rclone-config
+              mountPath: /secrets/rclone.conf
+              subPath: rclone.conf
+      volumes:
+        - name: rclone-config
+          secret:
+            secretName: jm-rclone-config
+        - name: evaluator-storage-lw-iris
+          persistentVolumeClaim:
+            claimName: evaluator-storage-lw-iris
+        - name: repo-vol
+          emptyDir: {}
+  backoffLimit: 4

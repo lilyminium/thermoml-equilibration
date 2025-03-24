@@ -1,0 +1,1033 @@
+Warning on use of the timeseries module: If the inherent timescales of the system are long compared to those being analyzed, this statistical inefficiency may be an underestimate.  The estimate presumes the use of many statistically independent samples.  Tests should be performed to assess whether this condition is satisfied.   Be cautious in the interpretation of the data.
+
+****** PyMBAR will use 64-bit JAX! *******
+* JAX is currently set to 32-bit bitsize *
+* which is its default.                  *
+*                                        *
+* PyMBAR requires 64-bit mode and WILL   *
+* enable JAX's 64-bit mode when called.  *
+*                                        *
+* This MAY cause problems with other     *
+* Uses of JAX in the same code.          *
+******************************************
+
+/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'authentik.nrp-nautilus.io'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'authentik.nrp-nautilus.io'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+INFO:__main__:Created PVC evaluator-storage-lw-iris2. State=Pending
+INFO:__main__:Waiting for PVC 'evaluator-storage-lw-iris2' to become Bound. Current phase: Pending
+INFO:__main__:PVC 'evaluator-storage-lw-iris2' is Bound.
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters/evaluator-lw-iris2 "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters "HTTP/1.1 201 Created"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters/evaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters/evaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters/evaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters/evaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters/evaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters/evaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2&fieldSelector=status.phase%3DRunning "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services/evaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/6nrp.example.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acid.zalan.do/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acme.cert-manager.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acme.constellix.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/admissionregistration.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/agent.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apiextensions.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apiregistration.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apm.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apm.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apps/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apps.nebula-graph.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/authentication.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/authorization.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling/v2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/batch/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/beat.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/bitnami.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ceph.rook.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/cert-manager.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/certificates.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clabernetes.containerlab.dev/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clone.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clone.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/config.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/constraints.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/constraints.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/coordination.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/crd.projectcalico.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/csi.storage.k8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/custom.metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/discovery.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/enterprisesearch.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/enterprisesearch.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/eventing.keda.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/events.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/expansion.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/export.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/export.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/external.metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/externaldata.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/externaldata.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/flowcontrol.apiserver.k8s.io/v1beta2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/flowcontrol.apiserver.k8s.io/v1beta3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/forklift.cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-15-0 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-17-0 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-18-2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-19-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-25-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-27-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/k8s.cni.cncf.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/keda.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kibana.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kibana.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubeflow.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubeflow.org/v2beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubevirt.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubevirt.io/v1alpha3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/logstash.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/maps.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/migrations.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/monitoring.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/monitoring.coreos.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/multicluster.admiralty.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/networking.example.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/networking.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nfd.k8s-sigs.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/node.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nrp-sense.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nvidia.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nvidia.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/objectbucket.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/opennsa.nrp-nautilus.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/optiputer.net/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/packages.operators.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/piraeus.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/policy/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/pool.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ray.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ray.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/rbac.authorization.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/remediation.medik8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/replication.storage.openshift.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/rook.io/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scheduling.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scylla.scylladb.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scylla.scylladb.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/self-node-remediation.medik8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.storage.k8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/stackconfigpolicy.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/status.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/storage.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/subresources.kubevirt.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/subresources.kubevirt.io/v1alpha3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/tokens.osg-htc.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/upload.cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcluster-name%3Devaluator-lw-iris2%2Cdask.org%2Fcomponent%3Dscheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/6nrp.example.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acid.zalan.do/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acme.cert-manager.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/6nrp.example.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acid.zalan.do/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acme.constellix.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acme.cert-manager.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/admissionregistration.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/agent.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acme.constellix.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apiextensions.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/admissionregistration.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apiregistration.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/agent.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apm.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apiextensions.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apm.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apiregistration.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apps/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apm.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apps.nebula-graph.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apm.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/authentication.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apps/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/authorization.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apps.nebula-graph.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/authentication.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/authorization.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling/v2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling/v2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/batch/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/beat.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/batch/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/bitnami.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/beat.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/bitnami.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ceph.rook.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/cert-manager.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ceph.rook.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/certificates.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/cert-manager.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clabernetes.containerlab.dev/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/certificates.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clone.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clabernetes.containerlab.dev/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clone.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clone.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/config.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clone.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/constraints.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/config.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/constraints.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/constraints.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/coordination.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/constraints.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/crd.projectcalico.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/coordination.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/csi.storage.k8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/crd.projectcalico.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/csi.storage.k8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/custom.metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/custom.metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/discovery.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/discovery.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/enterprisesearch.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/enterprisesearch.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/enterprisesearch.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/enterprisesearch.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/eventing.keda.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/eventing.keda.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/events.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/events.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/expansion.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/expansion.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/export.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/export.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/export.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/export.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/external.metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/external.metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/externaldata.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/externaldata.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/externaldata.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/externaldata.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/flowcontrol.apiserver.k8s.io/v1beta2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/flowcontrol.apiserver.k8s.io/v1beta2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/flowcontrol.apiserver.k8s.io/v1beta3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/flowcontrol.apiserver.k8s.io/v1beta3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/forklift.cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/forklift.cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-15-0 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-15-0 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-17-0 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-17-0 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-18-2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-18-2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-19-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-19-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-25-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-25-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-27-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-27-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/k8s.cni.cncf.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/k8s.cni.cncf.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/keda.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/keda.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kibana.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kibana.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kibana.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kibana.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubeflow.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubeflow.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubeflow.org/v2beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubeflow.org/v2beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubevirt.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubevirt.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubevirt.io/v1alpha3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubevirt.io/v1alpha3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/logstash.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/logstash.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/maps.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/maps.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/migrations.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/migrations.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/monitoring.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/monitoring.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/monitoring.coreos.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/monitoring.coreos.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/multicluster.admiralty.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/multicluster.admiralty.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/networking.example.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/networking.example.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/networking.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/networking.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nfd.k8s-sigs.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nfd.k8s-sigs.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/node.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/node.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nrp-sense.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nrp-sense.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nvidia.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nvidia.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nvidia.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nvidia.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/objectbucket.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/objectbucket.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/opennsa.nrp-nautilus.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/opennsa.nrp-nautilus.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/optiputer.net/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/optiputer.net/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/packages.operators.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/packages.operators.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/piraeus.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/piraeus.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/policy/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/policy/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/pool.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/pool.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ray.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ray.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ray.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ray.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/rbac.authorization.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/rbac.authorization.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/remediation.medik8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/remediation.medik8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/replication.storage.openshift.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/replication.storage.openshift.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/rook.io/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/rook.io/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scheduling.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scheduling.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scylla.scylladb.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scylla.scylladb.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scylla.scylladb.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scylla.scylladb.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/self-node-remediation.medik8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/self-node-remediation.medik8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.storage.k8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.storage.k8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/stackconfigpolicy.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/stackconfigpolicy.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/status.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/status.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/storage.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/storage.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/subresources.kubevirt.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/subresources.kubevirt.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/subresources.kubevirt.io/v1alpha3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/subresources.kubevirt.io/v1alpha3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/tokens.osg-htc.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/tokens.osg-htc.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/upload.cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/upload.cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcluster-name%3Devaluator-lw-iris2%2Cdask.org%2Fcomponent%3Dscheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcluster-name%3Devaluator-lw-iris2%2Cdask.org%2Fcomponent%3Dscheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv/portforward?name=evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv&namespace=openforcefield&ports=8786&_preload_content=false "HTTP/1.1 101 Switching Protocols"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv/portforward?name=evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv&namespace=openforcefield&ports=8786&_preload_content=false "HTTP/1.1 101 Switching Protocols"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/6nrp.example.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acid.zalan.do/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv/portforward?name=evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv&namespace=openforcefield&ports=8786&_preload_content=false "HTTP/1.1 101 Switching Protocols"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acme.cert-manager.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcomponent%3Dscheduler%2Cdask.org%2Fcluster-name%3Devaluator-lw-iris2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/services?fieldSelector=metadata.name%3Devaluator-lw-iris2-scheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/acme.constellix.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/admissionregistration.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups?fieldSelector=metadata.name%3Devaluator-lw-iris2-default "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/agent.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apiextensions.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv/portforward?name=evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv&namespace=openforcefield&ports=8786&_preload_content=false "HTTP/1.1 101 Switching Protocols"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apiregistration.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apm.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+╭───────────────── Creating KubeCluster 'evaluator-lw-iris2' ──────────────────╮
+│                                                                              │
+│   DaskCluster                                                      Running   │
+│   Scheduler Pod                                                    Running   │
+│   Scheduler Service                                                Created   │
+│   Default Worker Group                                             Created   │
+│                                                                              │
+│ ⠋ Getting dashboard URL                                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apm.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apps/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/apps.nebula-graph.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: PATCH https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskautoscalers/evaluator-lw-iris2 "HTTP/1.1 404 Not Found"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/authentication.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/authorization.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskautoscalers "HTTP/1.1 201 Created"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling/v2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/autoscaling.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/batch/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/beat.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskworkergroups "HTTP/1.1 201 Created"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/bitnami.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ceph.rook.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/cert-manager.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/certificates.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv/portforward?name=evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv&namespace=openforcefield&ports=8786&_preload_content=false "HTTP/1.1 101 Switching Protocols"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clabernetes.containerlab.dev/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clone.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/clone.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/config.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/constraints.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv/portforward?name=evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv&namespace=openforcefield&ports=8786&_preload_content=false "HTTP/1.1 101 Switching Protocols"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/constraints.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/coordination.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/crd.projectcalico.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/csi.storage.k8s.io/v1alpha1 "HTTP/1.1 200 OK"
+/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/distributed/client.py:1392: VersionMismatchWarning: Mismatched versions found
+
++---------+--------+-----------+---------+
+| Package | Client | Scheduler | Workers |
++---------+--------+-----------+---------+
+| toolz   | 1.0.0  | 0.12.0    | None    |
++---------+--------+-----------+---------+
+  warnings.warn(version_module.VersionMismatchWarning(msg[0]["warning"]))
+INFO:__main__:Calculating with backend <openff.evaluator.backends.dask_kubernetes.DaskKubernetesBackend object at 0x7f24b19cebd0>
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/custom.metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/discovery.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/elasticsearch.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/enterprisesearch.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/enterprisesearch.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/eventing.keda.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/events.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/expansion.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/export.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/export.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/external.metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/externaldata.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/externaldata.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/flowcontrol.apiserver.k8s.io/v1beta2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/flowcontrol.apiserver.k8s.io/v1beta3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/forklift.cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/instancetype.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-15-0 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-17-0 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-18-2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-19-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-25-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/internal.linstor.linbit.com/v1-27-1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/k8s.cni.cncf.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/keda.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kibana.k8s.elastic.co/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kibana.k8s.elastic.co/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubeflow.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubeflow.org/v2beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubevirt.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubevirt.io/v1alpha3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/logstash.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/maps.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/metrics.k8s.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/migrations.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/monitoring.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/monitoring.coreos.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/multicluster.admiralty.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/mutations.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/networking.example.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/networking.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nfd.k8s-sigs.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/node.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nrp-sense.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nvidia.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/nvidia.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/objectbucket.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/opennsa.nrp-nautilus.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/operators.coreos.com/v2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/optiputer.net/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/packages.operators.coreos.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/piraeus.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/policy/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/pool.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ray.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/ray.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/rbac.authorization.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/remediation.medik8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/replication.storage.openshift.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/rook.io/v1alpha2 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scheduling.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scylla.scylladb.com/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/scylla.scylladb.com/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/self-node-remediation.medik8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.kubevirt.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/snapshot.storage.k8s.io/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/stackconfigpolicy.k8s.elastic.co/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/status.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/storage.k8s.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/subresources.kubevirt.io/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/subresources.kubevirt.io/v1alpha3 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1alpha1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/templates.gatekeeper.sh/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/tokens.osg-htc.org/v1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/upload.cdi.kubevirt.io/v1beta1 "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods?labelSelector=dask.org%2Fcluster-name%3Devaluator-lw-iris2%2Cdask.org%2Fcomponent%3Dscheduler "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv/portforward?name=evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv&namespace=openforcefield&ports=8787&_preload_content=false "HTTP/1.1 101 Switching Protocols"
+INFO:__main__:Copied server-existing.py to /evaluator-storage/server-existing.py
+INFO:__main__:Command: ['python', '/evaluator-storage/server-existing.py', '--cluster-name', 'evaluator-lw-iris2', '--namespace', 'openforcefield', '--memory', '4', '--ephemeral-storage', '20', '--storage-path', '/evaluator-storage', '--port', '8998']
+INFO:httpx:HTTP Request: GET https://67.58.53.147/api/v1/namespaces/openforcefield/pods/evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv/portforward?name=evaluator-lw-iris2-scheduler-85fd5d5bc8-wwsmv&namespace=openforcefield&ports=8786&_preload_content=false "HTTP/1.1 101 Switching Protocols"
+INFO:__main__:Created deployment evaluator-server-lw-iris2. State={'available_replicas': None,
+ 'collision_count': None,
+ 'conditions': None,
+ 'observed_generation': None,
+ 'ready_replicas': None,
+ 'replicas': None,
+ 'unavailable_replicas': None,
+ 'updated_replicas': None}
+Pod name: evaluator-server-lw-iris2-5b64c676f6-gbbw8
+INFO:__main__:Forwarding port 8998 to pod evaluator-server-lw-iris2-5b64c676f6-gbbw8
+Loaded 857 properties from ../01_curate-data/output/broad-dataset.json
+INFO:openff.toolkit.typing.engines.smirnoff.parameters:Attempting to up-convert vdW section from 0.3 to 0.4
+INFO:openff.toolkit.typing.engines.smirnoff.parameters:Successfully up-converted vdW section from 0.3 to 0.4. `method="cutoff"` is now split into `periodic_method="cutoff"` and `nonperiodic_method="no-cutoff"`.
+INFO:openff.toolkit.typing.engines.smirnoff.parameters:Attempting to up-convert Electrostatics section from 0.3 to 0.4
+INFO:openff.toolkit.typing.engines.smirnoff.parameters:Successfully up-converted Electrostatics section from 0.3 to 0.4. `method="PME"` is now split into `periodic_potential="Ewald3D-ConductingBoundary"`, `nonperiodic_potential="Coulomb"`, and `exception_potential="Coulomb"`.
+[Errno 111] Connection refused
+WARNING:urllib3.connectionpool:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)'))': /apis/apps/v1/namespaces/openforcefield/deployments/evaluator-server-lw-iris2
+WARNING:urllib3.connectionpool:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)'))': /apis/apps/v1/namespaces/openforcefield/deployments/evaluator-server-lw-iris2
+Traceback (most recent call last):
+  File "/data1/choderaj/wangl14/thermoml-equilibration/02b_equilibrate-k8s/equilibrate-k8s.py", line 551, in main
+    raise e
+  File "/data1/choderaj/wangl14/thermoml-equilibration/02b_equilibrate-k8s/equilibrate-k8s.py", line 542, in main
+    equilibrate(
+  File "/data1/choderaj/wangl14/thermoml-equilibration/02b_equilibrate-k8s/equilibrate-k8s.py", line 386, in equilibrate
+    results, exception = request.results(synchronous=True, polling_interval=30)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/pydev/openff-evaluator/openff/evaluator/client/client.py", line 165, in results
+    return self._client.retrieve_results(self.id, synchronous, polling_interval)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/pydev/openff-evaluator/openff/evaluator/client/client.py", line 763, in retrieve_results
+    response, error = self._send_query_to_server(request_id)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/pydev/openff-evaluator/openff/evaluator/client/client.py", line 864, in _send_query_to_server
+    connection.connect(connection_settings)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connection.py", line 741, in connect
+    sock_and_verified = _ssl_wrap_socket_and_match_hostname(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connection.py", line 920, in _ssl_wrap_socket_and_match_hostname
+    ssl_sock = ssl_wrap_socket(
+               ^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 460, in ssl_wrap_socket
+    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/util/ssl_.py", line 504, in _ssl_wrap_socket_impl
+    return ssl_context.wrap_socket(sock, server_hostname=server_hostname)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/ssl.py", line 517, in wrap_socket
+    return self.sslsocket_class._create(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/ssl.py", line 1104, in _create
+    self.do_handshake()
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/ssl.py", line 1382, in do_handshake
+    self._sslobj.do_handshake()
+ssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data1/choderaj/wangl14/thermoml-equilibration/02b_equilibrate-k8s/equilibrate-k8s.py", line 587, in <module>
+    main()
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/thermoml-equilibration/02b_equilibrate-k8s/equilibrate-k8s.py", line 556, in main
+    copy_from_storage(
+  File "/data1/choderaj/wangl14/thermoml-equilibration/02b_equilibrate-k8s/equilibrate-k8s.py", line 109, in copy_from_storage
+    pod_name = get_pod_name(deployment_name, namespace)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/thermoml-equilibration/02b_equilibrate-k8s/equilibrate-k8s.py", line 93, in get_pod_name
+    deployment = apps_v1.read_namespaced_deployment(name=deployment_name, namespace=namespace)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kubernetes/client/api/apps_v1_api.py", line 6580, in read_namespaced_deployment
+    return self.read_namespaced_deployment_with_http_info(name, namespace, **kwargs)  # noqa: E501
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kubernetes/client/api/apps_v1_api.py", line 6667, in read_namespaced_deployment_with_http_info
+    return self.api_client.call_api(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kubernetes/client/api_client.py", line 348, in call_api
+    return self.__call_api(resource_path, method,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kubernetes/client/api_client.py", line 180, in __call_api
+    response_data = self.request(
+                    ^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kubernetes/client/api_client.py", line 373, in request
+    return self.rest_client.GET(url,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kubernetes/client/rest.py", line 244, in GET
+    return self.request("GET", url,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kubernetes/client/rest.py", line 217, in request
+    r = self.pool_manager.request(method, url,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/_request_methods.py", line 135, in request
+    return self.request_encode_url(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/_request_methods.py", line 182, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/poolmanager.py", line 443, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py", line 942, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py", line 871, in urlopen
+    return self.urlopen(
+           ^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='67.58.53.147', port=443): Max retries exceeded with url: /apis/apps/v1/namespaces/openforcefield/deployments/evaluator-server-lw-iris2 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1006)')))
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: GET https://67.58.53.147/apis/kubernetes.dask.org/v1/namespaces/openforcefield/daskclusters?fieldSelector=metadata.name%3Devaluator-lw-iris2 "HTTP/1.1 401 Unauthorized"
+Exception ignored in atexit callback: <function reap_clusters at 0x7f24b029fd80>
+Traceback (most recent call last):
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/dask_kubernetes/operator/kubecluster/kubecluster.py", line 1033, in reap_clusters
+    asyncio.run(_reap_clusters())
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/dask_kubernetes/operator/kubecluster/kubecluster.py", line 1031, in _reap_clusters
+    cluster.close(timeout=10)
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/dask_kubernetes/operator/kubecluster/kubecluster.py", line 700, in close
+    return self.sync(self._close, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/distributed/utils.py", line 358, in sync
+    return sync(
+           ^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/distributed/utils.py", line 434, in sync
+    raise error
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/distributed/utils.py", line 408, in f
+    result = yield future
+             ^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/tornado/gen.py", line 766, in run
+    value = future.result()
+            ^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/dask_kubernetes/operator/kubecluster/kubecluster.py", line 706, in _close
+    cluster = await DaskCluster.get(self.name, namespace=self.namespace)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kr8s/_objects.py", line 265, in get
+    raise e
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kr8s/_objects.py", line 255, in get
+    resources = await api.async_get(
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kr8s/_api.py", line 460, in async_get
+    async with self.async_get_kind(
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kr8s/_api.py", line 396, in async_get_kind
+    async with self.call_api(
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/contextlib.py", line 210, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data1/choderaj/wangl14/miniforge3/envs/evaluator-test-env-openff/lib/python3.11/site-packages/kr8s/_api.py", line 186, in call_api
+    raise ServerError(
+kr8s._exceptions.ServerError: Unauthorized
+slurmstepd: error: *** JOB 96468 ON isca119 CANCELLED AT 2025-03-20T15:31:08 ***
