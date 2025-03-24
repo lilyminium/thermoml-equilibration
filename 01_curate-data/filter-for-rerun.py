@@ -65,6 +65,33 @@ CHEMICAL_ENVIRONMENTS = [
 
 ]
 
+TARGET_STATES = [
+    TargetState(
+        property_types=[
+            ("Density", 1),
+        ],
+        states=[
+            State(
+                temperature=298.15,
+                pressure=101.325,
+                mole_fractions=(1.0,),
+            ),
+        ],
+    ),
+    TargetState(
+        property_types=[
+            ("Density", 2),
+            ("EnthalpyOfMixing", 2),
+        ],
+        states=[
+            State(
+                temperature=298.15,
+                pressure=101.325,
+                mole_fractions=(0.5, 0.5),
+            )
+        ],
+    ),
+]
 
 
 def curate_data_set(
@@ -78,20 +105,15 @@ def curate_data_set(
 
     curation_schema = CurationWorkflowSchema(
         component_schemas=[
-            # Remove any molecules containing elements that aren't currently of interest
-            filtering.FilterByElementsSchema(allowed_elements=allowed_elements),
-            filtering.FilterDuplicatesSchema(
-                mole_fraction_precision=1,
-                temperature_precision=0,
-                pressure_precision=0,
-            ),
-            # Retain only measurements made for substances which contain environments
-            # of interest.
-            filtering.FilterByEnvironmentsSchema(environments=CHEMICAL_ENVIRONMENTS),
-            selection.SelectSubstancesSchema(
-                target_environments=CHEMICAL_ENVIRONMENTS,
-                n_per_environment=10,
-                per_property=False,
+            # Only errored molecules
+            filtering.FilterBySmilesSchema(
+                smiles_to_include=[
+                    "BrCCBr",
+                    "OCCOCCO",
+                    "COC=O",
+                    "CCCCCCCCO",
+                    "CN1CCNCC1",
+                ]
             ),
         ]
     )
@@ -101,15 +123,15 @@ def curate_data_set(
 
 @click.command()
 @click.option(
-    "--output-file",
-    "-o",
-    default="output/dataset.csv",
+    "--input-file",
+    "-i",
+    default="output/broad-dataset.csv",
     help="The output CSV file to save the filtered data to",
 )
 @click.option(
-    "--input-file",
-    "-i",
-    default="intermediate/continued-filtered-without-high-viscosities.csv",
+    "--output-file",
+    "-o",
+    default="output/broad-dataset-rerun.csv",
     help="The CSV file containing existing parsed ThermoML data",
 )
 @click.option(
@@ -119,8 +141,8 @@ def curate_data_set(
     help="The number of processes to use for filtering the data",
 )
 def main(
-    input_file: str = "intermediate/continued-filtered-without-high-viscosities.csv",
-    output_file: str = "output/dataset.csv",
+    input_file: str = "output/broad-dataset.csv",
+    output_file: str = "output/broad-dataset-rerun.csv",
     n_processes: int = 1,
 ):
     now = time.time()
